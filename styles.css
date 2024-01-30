@@ -1,0 +1,11 @@
+body { 
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    margin-top : 50px ;
+    border : 2px solid black ;
+    height: 500px ;
+    width : 500px ;
+}
