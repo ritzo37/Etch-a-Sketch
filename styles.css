@@ -1,11 +1,12 @@
 body { 
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 .container {
     display: flex;
     margin-top : 50px ;
-    border : 2px solid black ;
+    border : 2px solid white;
     height: 500px ;
     width : 500px ;
 }
