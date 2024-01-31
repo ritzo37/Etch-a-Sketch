@@ -29,13 +29,17 @@ function createGrids() {
     }
 }
 
+function getRandomRGB() {
+    return (Math.floor(Math.random()*1000))%255; 
+}
+
 function addHoverEffect() {
     const grids = document.querySelectorAll('.clickme');
     grids.forEach((gridItem) => {
         gridItem.addEventListener('mouseenter', (e) => {
-            let red = (+e.clientX)%255 ; 
-            let green = (+e.clientY)%255 ; 
-            let blue = (+e.clientX+ +e.clientY)%255 ;
+            let red = getRandomRGB() ; 
+            let green = getRandomRGB(); 
+            let blue = getRandomRGB() ;
             e.target.style.backgroundColor=`rgb(${red},${green},${blue})`;
 
         })
