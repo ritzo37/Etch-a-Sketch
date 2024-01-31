@@ -21,28 +21,29 @@ body {
     justify-content: center;
     font-size: 32px;
     font-family: "Brush Script MT",cursive ,serif ;
-    background-color: #781e58 ;
-    padding : 25px ; 
+    padding : 15px ; 
 }
 .footer {
     display: flex;
     color: white;
     justify-content: center;
-    padding : 17px ;
+    padding : 10px ;
     font-size: 15px;
     font-family: "Brush Script MT",cursive,serif ;
-    background-color: #872164 ;
     margin-top: auto;
 }
 button  {
     width: 100px;
-    height: 25px; 
+    height: 45px; 
+    border: 2px solid red;
+    cursor: grab;
     color : white;
+    border-radius: 10px;
     background-color: #872164;
     border-style: none;
 }
 .buttons {
-    padding : 10px ;
+    padding : 20px ;
     gap : 50px; 
     display: flex;
     justify-content: center;
