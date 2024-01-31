@@ -33,7 +33,11 @@ function addHoverEffect() {
     const grids = document.querySelectorAll('.clickme');
     grids.forEach((gridItem) => {
         gridItem.addEventListener('mouseenter', (e) => {
-            e.target.style.backgroundColor = "hotpink";
+            let red = (+e.clientX)%255 ; 
+            let green = (+e.clientY)%255 ; 
+            let blue = (+e.clientX+ +e.clientY)%255 ;
+            e.target.style.backgroundColor=`rgb(${red},${green},${blue})`;
+
         })
     })
 }
