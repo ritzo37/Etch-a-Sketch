@@ -12,7 +12,7 @@ body {
     height: 500px ;
     width : 500px ;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 .header {
     display: flex;
@@ -28,9 +28,22 @@ body {
     display: flex;
     color: white;
     justify-content: center;
-    padding : 25px ;
-    font-size: 20px;
+    padding : 17px ;
+    font-size: 15px;
     font-family: "Brush Script MT",cursive,serif ;
     background-color: #872164 ;
     margin-top: auto;
+}
+button  {
+    width: 100px;
+    height: 25px; 
+    color : white;
+    background-color: #872164;
+    border-style: none;
+}
+.buttons {
+    padding : 10px ;
+    gap : 50px; 
+    display: flex;
+    justify-content: center;
 }
